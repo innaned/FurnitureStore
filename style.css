@@ -1,0 +1,125 @@
+body {
+    background-color: #cdc1b5;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, .slogan, h3 {
+    font-family: 'Play', sans-serif;
+}
+
+h1, h3 {
+    color: #353942;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.slogan {
+    color: #6e6c6d;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Play', sans-serif;
+    color: #353942;
+    flex: 1;
+    position: relative;
+    margin: 5px;
+}
+
+h4 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: #cabaaf;
+    font-size: 0;
+}
+
+.price {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    background-color: #cabaaf;
+    color: #b65f11;
+    font-size: 0;
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h4 {
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+.selected .price {
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 1s ease-in;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+label {
+    font-family: 'Play', sans-serif;
+    color: #353942;
+    font-size: 30px;
+}
+
+.inputText {
+    background-color: #cdc1b5;
+    border: none;
+    padding: 12px 20px;
+}
+
+.btn {
+    width: 300px;
+    background-color: #b65f11;
+    padding: 5px;
+    margin: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.one {
+    background-image: url(one.jpg);
+}
+
+.two {
+    background-image: url(two.jpg);
+}
+
+.three {
+    background-image: url(three.jpg)
+}
+
+.four {
+    background-image: url(four.jpg)
+}
+
+.five {
+    background-image: url(five.jpg)
+}
+
+.six {
+    background-image: url(six.jpg)
+}
